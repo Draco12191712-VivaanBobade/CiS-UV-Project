@@ -12,7 +12,7 @@ This project is an autonomous 4cm cube data logger designed for stratospheric re
   *These specs are not final*
 
 ## Operational Logic
-The system is programmed for 100% autonomous operation. Upon initial power-up, the MCU enters a deep-sleep hibernation to preserve energy. Once the mission window begins, the altitude sensor triggers data collection at specific atmospheric pressure thresholds (10, 15, and 20 miles). Data is formatted into a text-based template and stored across two independent memory chips to prevent data loss from cosmic radiation or hardware failure.
+The system is programmed for 100% autonomous operation. Upon initial power-up, the MCU enters a deep-sleep hibernation to preserve energy. Once the mission window begins, the altitude sensor triggers data collection at specific atmospheric pressure thresholds (10, 15, and 20 miles). Data is formatted into a text-based template and stored across two independent memory chips to prevent data loss from cosmic radiation or hardware failure. It is stored as a .csv or .txt file.
 
 ## Experiment Variables
 *   **Independent Variable:** UV sensor technology (Analog Phototransistor vs. Digital UV Detector)
