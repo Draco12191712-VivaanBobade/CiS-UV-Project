@@ -8,6 +8,7 @@
 *.kicad_pcb-bak
 *-bak
 *.lck
+*.history
 
 # Block local project settings and local library caches
 
