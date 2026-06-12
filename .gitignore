@@ -89,3 +89,4 @@ build/
 # Hardware Log Files
 
 *.log
+.history/
