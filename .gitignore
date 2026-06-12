@@ -9,6 +9,8 @@
 *-bak
 *.lck
 *.history
+*.kicad_sch.lck
+*.kicad_pro.lck
 
 # Block local project settings and local library caches
 
