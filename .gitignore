@@ -1,0 +1,90 @@
+# KiCad Files
+
+# Keep main schematics (.kicad_sch) and layouts (.kicad_pcb)
+# Block auto-saves, backups, and temporary session locks
+*.bak
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-bak
+*.lck
+
+# Block local project settings and local library caches
+
+_autosave-*
+fp-info-cache
+kicad-backup/
+
+# Block manufacturing output folders (uncomment if you want to ignore them)
+# gerber/
+# plots/
+
+
+# CircuitPython / Python
+
+# Block Python byte-code caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Block OS-specific metadata files written by boards like the Adafruit QT Py
+.Trashes
+.Spotlight-V100
+.fseventsd
+boot_out.txt
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.VolumeIcon.icns
+.com.apple.timemachine.donotbackup
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+.directory
+*~
+.fuse_hidden*
+.trash*
+.nfs*
+
+# C / C++ Compiler and IDE Artifacts
+
+# Block compiled object files and libraries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Block build directories (CMake, Make, VS Code, PlatformIO)
+
+build/
+.build/
+.pio/
+.clangd/
+
+# Block text editor / IDE configurations
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+# Hardware Log Files
+
+*.log
